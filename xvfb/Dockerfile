@@ -70,5 +70,3 @@ WORKDIR /data
 # -----------------------------
 CMD ["xvfb-run", "electron", ".", "--no-sandbox", "--disable-gpu", "--disable-features=UseDBus"]
 
-
-# CMD ["Xvfb", ":99", "-screen", "0", "1920x1080x24", "-ac"]
